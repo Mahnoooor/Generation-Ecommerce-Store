@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Card Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #161b18;
+    }
+  
+    .card {
+      max-width: 500px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(18, 231, 46, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+  
+    .card h2 {
+      font-size: 24px;
+      color: #333333;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+  
+    .card p {
+      font-size: 14px;
+      color: #666666;
+      margin-bottom: 20px;
+    }
+  
+    .card ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  
+    .card ul li {
+      font-size: 14px;
+      color: #666666;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .card ul li svg {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+      fill: currentColor;
+    }
+  
+    .card a {
+      display: inline-block;
+      background-color: #4c9aff;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+  
+    .card a:hover {
+      background-color: #3782cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="d-flex justify-content-center align-items-center vh-100 bg-gray-100">
+    <div class="card bg-white shadow p-4">
+      <img src="images/download.png" alt="Placeholder Image" class="w-50 h-50 mx-auto rounded-circle mb-4">
+      <h2 class="h4 text-dark font-weight-bold mb-2">Creators</h2>
+      <p class="text-muted mb-4">20-SE-18 | 20-SE-68</p>
+      <ul class="text-muted">
+        <li class="d-flex align-items-center mb-2">
+          <svg class="w-4 h-4 me-2 text-muted" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+          </svg>
+          UET Taxila
+        </li>
+        <li class="d-flex align-items-center mb-2">
+          <svg class="w-4 h-4 me-2 text-muted" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M4 10a6 6 0 118 5.92V17a1 1 0 01-1 1H5a1 1 0 01-1-1v-1.08A6 6 0 014 10zm6-4a4 4 0 100 8 4 4 0 000-8z" clip-rule="evenodd"></path>
+          </svg>
+          generation@gmail.com
+        </li>
+        <li class="d-flex align-items-center">
+          <svg class="w-4 h-4 me-2 text-muted" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM9 14a3 3 0 014.95-2.25L17 10l-2.05-1.75A3 3 0 1115 14H9z"></path>
+          </svg>
+          @generation
+        </li>
+      </ul>
+      <div class="mt-4">
+        <a href="#" class="btn btn-primary">Connect</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
