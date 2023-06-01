@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap");
+
+/* * {
+  border: 0.5px solid black;
+} */
+/*betterTo understand boxes*/
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.bgimg {
+  background-image: url('path/to/your/background-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.headerset {
+  color: #fff;
+}
+
+.services {
+  background-color: #000;
+  color: #fff;
+}
+
+.icon-img {
+  color: #fff;
+}
+
+#intro {
+  background-color: #000;
+  color: #fff;
+  padding: 100px 0;
+}
+
+#intro .display-1 {
+  color: #fff;
+}
+
+#intro .display-5 {
+  color: #ccc;
+}
+.ourteam {
+  padding-top: 50px;
+}
+.container {
+  font-family: "Quicksand";
+}
+h4 {
+  color: #fff;
+  font-weight: bold;
+}
+.icon-img {
+  width: 60px;
+  height: 60px;
+}
